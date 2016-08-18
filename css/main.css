@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+.p0 {
+  padding: 0;
+}
+
 /*HEADER*/
 
 header {
@@ -57,4 +61,198 @@ nav {
 
 .title_block {
   margin-top: 200px;
+}
+
+/*MAIN SECTION*/
+
+.about_descr {
+  text-align: left;
+  margin: 70px 30px;
+}
+
+.about_descr h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.about_descr p {
+  font-size: 24px;
+}
+
+.photo_block {
+  position: relative;
+}
+
+.photo_wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(63, 11, 15, 0.6);
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  opacity: 0;
+}
+
+.photo_block:hover .photo_wrap{
+  opacity: 1;
+}
+
+.photo_descr {
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+.photo_descr h4 {
+  text-transform: uppercase;
+}
+
+.instagram_block {
+  height: 300px;
+  background-color: #3f729b;
+  color: #fff;
+  text-align: left;
+  padding: 60px 30px 0 180px;
+}
+
+.instagram_wrap h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.instagram_wrap p {
+  font-size: 20px;
+  font-family: serif;
+  margin: 20px 0;
+}
+
+.inst_btn {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+.inst_btn a {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.inst_btn a:hover,
+.inst_btn a:focus {
+  text-decoration: none;
+  color: #000;
+}
+
+.play_block {
+  position: relative;
+  background-color: #282b2f;
+  padding-left: 300px;
+}
+
+.play_wrap {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  background-color: #212227;
+}
+
+.play_descr {
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+
+.play_descr h4,
+.play_descr h5,
+.play_descr a {
+  text-transform: uppercase;
+  color: #2ebd59;
+}
+
+.play_descr h4{
+  font-weight: bold;
+}
+
+.play_descr p {
+  color: #fff;
+  margin: 30px 0;
+}
+
+.play_descr a:hover,
+.play_descr a:focus {
+  text-decoration: none;
+  color: #fff;
+}
+
+.play_btn span {
+  color: #2ebd59;
+}
+
+.play_btn {
+  padding-left: 10px;
+  width: 145px;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  border: 2px solid #2ebd59;
+  border-radius: 40px;
+}
+
+.spotify_block {
+  height: 300px;
+  background-color: #2ebd59;
+  padding: 60px 30px 0 180px;
+}
+
+.spotify_block,
+.itunes_block {
+  color: #fff;
+}
+
+.itunes_btn a,
+.spotify_btn a {
+  color: #fff;
+}
+
+.itunes_block {
+  height: 300px;
+  background-color: #282b2f;
+  padding: 60px 30px 0 50px;
+}
+
+.spotify_btn,
+.itunes_btn {
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+.spotify_btn a:focus,
+.spotify_btn a:hover {
+  text-decoration: none;
+  color: #282b2f;
+}
+.itunes_btn a:focus,
+.itunes_btn a:hover {
+  text-decoration: none;
+  color: #2ebd59;
+}
+
+.spotify_block h4,
+.itunes_block h4 {
+  font-weight: bold;
+}
+
+.spotify_block p,
+.itunes_block p {
+  font-size: 18px;
+  margin: 20px 0;
 }

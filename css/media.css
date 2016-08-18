@@ -7,7 +7,21 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	header {
+		height: 600px;
+	}
 
+	.instagram_block {
+		padding: 30px 30px 0 50px;
+	}
+
+	.play_block {
+		padding-left: 0;
+	}
+
+	.spotify_block {
+		padding: 60px 30px 0 50px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -33,6 +47,10 @@
 		-o-animation: none !important;
 		-ms-animation: none !important;
 		animation: none !important;
+	}
+
+	header {
+		height: 500px;
 	}
 
 	nav {
@@ -85,9 +103,42 @@
 		margin-top: 120px;
 	}
 
+	.instagram_block {
+		padding: 30px 30px 0 20px;
+	}
+
+	.play_block {
+		padding-left: 0;
+	}
+
+	.play_descr p {
+		display: none;
+	}
+
+	.play_wrap {
+		width: 190px;
+		height: 200px;
+	}
+
+	.play_descr {
+		padding-top: 25px;
+		padding-left: 20px;
+	}
+
+	.spotify_block,
+	.itunes_block {
+		padding-top: 25px;
+		padding-left: 20px;
+		height: 200px;
+	}
+
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {	d
-  nav {
+@media only screen and (max-width : 480px) {
+	header {
+		height: 400px;
+	}
+
+	nav {
 		height: 60px;
 		line-height: 60px;
 		background-color: #212227;
@@ -139,11 +190,57 @@
 
 	.title_block h1 {
 		font-size: 30px;
+	}
+
+	.about_descr {
+		margin: 30px 20px;
+	}
+
+	.about_descr h4 {
+		font-size: 18px;
+	}
+
+	.about_descr p {
+		font-size: 18px;
+	}
+
+	.instagram_block {
+		padding: 30px 30px 0 20px;
+		height: 260px;
+	}
+
+	.play_block {
+		padding-left: 0;
+	}
+
+	.play_descr p {
+		display: none;
+	}
+
+	.play_wrap {
+		width: 190px;
+		height: 200px;
+	}
+
+	.play_descr {
+		padding-top: 25px;
+		padding-left: 20px;
+	}
+
+	.spotify_block,
+	.itunes_block {
+		padding-top: 25px;
+		padding-left: 20px;
+		height: 200px;
 	}
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) 	d{
-  nav {
+@media only screen and (max-width : 320px) {
+	header {
+		height: 300px;
+	}
+
+	nav {
 		height: 60px;
 		line-height: 60px;
 		background-color: #212227;
@@ -195,4 +292,46 @@
 
 	.title_block h1 {
 		font-size: 30px;
+	}
+
+	.about_descr {
+		margin: 30px 20px;
+	}
+
+	.about_descr h4 {
+		font-size: 18px;
+	}
+
+	.about_descr p {
+		font-size: 18px;
+	}
+
+	.instagram_block {
+		padding: 30px 30px 0 20px;
+		height: 260px;
+	}
+
+	.play_block {
+		padding-left: 0;
+	}
+
+	.play_descr p {
+		display: none;
+	}
+
+	.play_wrap {
+		width: 190px;
+		height: 200px;
+	}
+
+	.play_descr {
+		padding-top: 25px;
+		padding-left: 20px;
+	}
+
+	.spotify_block,
+	.itunes_block {
+		padding-top: 25px;
+		padding-left: 20px;
+		height: 200px;
 	}
