@@ -22,6 +22,15 @@
 	.spotify_block {
 		padding: 60px 30px 0 50px;
 	}
+
+	.copyright_block,
+	.contact_block {
+		padding: 60px 0 0 50px;
+	}
+
+	.subscribe_block {
+		padding: 60px 0 40px 50px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -132,6 +141,20 @@
 		height: 200px;
 	}
 
+	.spotify_block p,
+	.itunes_block p {
+		font-size: 18px;
+	}
+
+	.copyright_block,
+	.contact_block {
+		padding: 25px 0 0 20px;
+	}
+
+	.subscribe_block {
+		padding: 25px 0 40px 20px;
+	}
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	header {
@@ -234,6 +257,24 @@
 		height: 200px;
 	}
 
+	.spotify_block p,
+	.itunes_block p {
+		font-size: 18px;
+	}
+
+	.copyright_block,
+	.contact_block {
+		padding: 25px 0 0 20px;
+	}
+
+	.subscribe_block {
+		padding: 25px 0 40px 20px;
+	}
+
+	.subscribe_block input {
+		width: 200px;
+	}
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 	header {
@@ -334,4 +375,22 @@
 		padding-top: 25px;
 		padding-left: 20px;
 		height: 200px;
+	}
+
+	.spotify_block p,
+	.itunes_block p {
+		font-size: 18px;
+	}
+
+	.copyright_block,
+	.contact_block {
+		padding: 25px 0 0 20px;
+	}
+
+	.subscribe_block {
+		padding: 25px 0 40px 20px;
+	}
+
+	.subscribe_block input {
+		width: 200px;
 	}

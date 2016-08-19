@@ -7,6 +7,54 @@ body {
   padding: 0;
 }
 
+/*BUTTONS*/
+
+.white_btn {
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  text-transform: uppercase;
+  border-radius: 50px;
+  outline: none;
+}
+
+.white_btn:hover {
+  color: #000;
+}
+
+.play_btn {
+  width: 160px;
+  color: #2ebd59;
+  border-color: #2ebd59;
+}
+
+.play_btn:hover {
+  color: #fff;
+}
+
+.social_btn {
+  width: 120px;
+  text-align: left;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+}
+
+.subscribe_btn {
+  height: 40px;
+  background-color: #b7b6b6;
+  position: absolute;
+  outline: none;
+}
+
+.sponsor_btn {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  margin-right: 10px;
+}
+
 /*HEADER*/
 
 header {
@@ -129,26 +177,6 @@ nav {
   margin: 20px 0;
 }
 
-.inst_btn {
-  width: 200px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  border: 2px solid #fff;
-  border-radius: 50px;
-}
-
-.inst_btn a {
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.inst_btn a:hover,
-.inst_btn a:focus {
-  text-decoration: none;
-  color: #000;
-}
-
 .play_block {
   position: relative;
   background-color: #282b2f;
@@ -169,8 +197,7 @@ nav {
 }
 
 .play_descr h4,
-.play_descr h5,
-.play_descr a {
+.play_descr h5 {
   text-transform: uppercase;
   color: #2ebd59;
 }
@@ -184,26 +211,6 @@ nav {
   margin: 30px 0;
 }
 
-.play_descr a:hover,
-.play_descr a:focus {
-  text-decoration: none;
-  color: #fff;
-}
-
-.play_btn span {
-  color: #2ebd59;
-}
-
-.play_btn {
-  padding-left: 10px;
-  width: 145px;
-  height: 40px;
-  line-height: 40px;
-  text-align: left;
-  border: 2px solid #2ebd59;
-  border-radius: 40px;
-}
-
 .spotify_block {
   height: 300px;
   background-color: #2ebd59;
@@ -215,44 +222,97 @@ nav {
   color: #fff;
 }
 
-.itunes_btn a,
-.spotify_btn a {
-  color: #fff;
-}
-
 .itunes_block {
   height: 300px;
   background-color: #282b2f;
   padding: 60px 30px 0 50px;
 }
 
-.spotify_btn,
-.itunes_btn {
-  width: 180px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  border: 2px solid #fff;
-  border-radius: 50px;
-}
-.spotify_btn a:focus,
-.spotify_btn a:hover {
-  text-decoration: none;
-  color: #282b2f;
-}
-.itunes_btn a:focus,
-.itunes_btn a:hover {
-  text-decoration: none;
-  color: #2ebd59;
-}
-
 .spotify_block h4,
 .itunes_block h4 {
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .spotify_block p,
 .itunes_block p {
-  font-size: 18px;
+  font-size: 24px;
   margin: 20px 0;
+  font-family: serif;
+}
+
+.itunes_btn:hover {
+  color: #2ebd59;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #212227;
+}
+
+footer h4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+footer p,
+footer span,
+footer i {
+  font-size: 12px;
+  color: #766e6e;
+}
+
+.copyright_block {
+  padding: 60px 0 0 70px;
+}
+
+.copyright_block span {
+  text-transform: uppercase;
+}
+
+.contact_block {
+  padding-top: 60px;
+}
+
+.social_btn i {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.subscribe_block {
+  padding-top: 60px;
+  padding-left: 50px;
+  padding-bottom: 80px;
+}
+
+.subscribe_block input {
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #b7b6b6;
+  outline: none;
+}
+
+.subscribe_btn i {
+  color: #766e6e;
+}
+
+.subscribe_btn:hover i {
+  color: #fff;
+}
+
+.social_btn:hover i,
+.sponsor_btn:hover i {
+  color: #fff;
+}
+
+.sponsor_btn i {
+  font-size: 24px;
 }
